@@ -1,0 +1,106 @@
+\documentclass[]{mycv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\usepackage{fontspec} 
+\usepackage{multicol}
+\definecolor{darkgray}{HTML}{4f4f4f}
+\definecolor{semigray}{HTML}{696868}
+%%------ Redefine footnote
+\renewcommand\footnotemark{}
+\renewcommand\footnoterule{}
+%%-----
+\usepackage{lastpage}
+\usepackage[absolute]{textpos}
+\usepackage{environ}
+
+\begin{document}
+\header{Ishank Sharma} % Your name and current job title/field
+\thinfont{{{+1-8483914784 | \href{mailto:ishank.sharma@rutgers.edu}{ishank.sharma@rutgers.edu} | \href{https://www.linkedin.com/in/ishnk/}{\textbf{Linkedin}:// ishnk} | \href{https://ishank26.github.io/}{\textbf{Website}://ishank26.github.io}}}}	
+\
+%----------------------------------------------------------------------------------------
+\vspace{7pt}
+%	EDUCATION SECTION
+\section{EDUCATION}
+\textbf{MS} in \textbf{Electrical \& Computer Engineering}, \hfill{\textcolor{gray}{ Sep 2017-May 2019}\\
+Rutgers University, New Brunswick, New Jersey,
+GPA: 3.0/4.0 \\
+\vspace{1pt}
+\textbf{B.Tech} in \textbf{Electronics \& Communication Engineering},
+\hfill{\textcolor{gray}{Sep 2012-July 2016}\\
+USICT, G.G.S Indraprastha University(GGSIPU), Delhi,
+GPA: 70.21/100 (First Division), WES GPA: 3.59/4.0
+\section{SKILLS}
+ \textbf{Languages}: Java, C/C++, Python, Scala, MATLAB \\
+ \textbf{Software \& Tools}: Hadoop, Spark, Kafka, AWS(EC2,S3,RDS), R, Keras, Tensorflow, PyTorch, OpenCV, Menpo, Docker, Jenkins  \\
+ \textbf{Databases}: MySQL, SQL Server, PostgreSQL, Redis, Neo4j, MonogDB
+ 
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{WORK EXPERIENCE}
+{\large\textbf{\color{lightgray}{Data Science Co-op, State Street Corp., NY}}}\hfill{\textcolor{gray}{July 2018--Present}}
+\begin{itemize}
+	\vspace{-0.5em}
+	\setlength\itemsep{-0.2em}
+	\item Developed deep neural models utilizing financial metrics to filter and score news streams for portfolio risk assessment.\
+	\item  Utilized knowledge graphs, contextual embeddings and risk models to find connections between global news, risk events and multi asset portfolios for Investment Decision Support. Optimized ETL pipeline for scalability and fast inference.
+\end{itemize}
+
+{\large\textbf{\color{lightgray}{Software Engineer, Intutent Inc., CA}}}\hfill{\textcolor{gray}{March--May 2017}}
+\begin{itemize}
+	\vspace{-0.5em}
+	\setlength\itemsep{-0.2em}
+\item Created ETL infrastructure for BigData based services with Python, Java, SQL, MongoDB, Redis, Django and SparkML.  
+\item Developed deep learning based microservices to automate job interview sessions.  
+\end{itemize}
+{{\large\textbf{\color{lightgray}{Research Associate, Indraprastha Institute of Information Technology, Delhi}}}\hfill{\textcolor{gray}{July 2016--Feb 2017}}
+	{\thinfont{\color{black}{}}}}
+\begin{itemize}
+	\vspace{-0.5em}
+	\setlength\itemsep{-0.2em}	
+		\item Responsible for developing a natural sounding speech synthesis system using transcribed texts. Implemented an user interactive system using RNN for duration/acoustic modeling and WORLD vocoder for waveform synthesis. 
+		\item Worked with a team to design vision module for an autonomous driving vehicle using convolutional neural networks and object tracking algorithms.
+\end{itemize}
+\section{KEY PROJECTS}
+{\large\textbf{\color{lightgray}{Using News and Supply Chain Data to Predict Stock Price Movements}}}\hfill{\textcolor{gray}{Spring 2019}} \\
+{\textcolor{lightgray}{MS Thesis: \href{https://www.ece.rutgers.edu/Striki}{Dr. Maria Striki}}
+\begin{itemize}
+	\vspace{-0.5em}
+	\setlength\itemsep{-0.2em}		
+	 \item Developing limit order based trading strategy with unsupervised news clustering, knowledge graphs and ARIMA-LSTM financial time series forecasting.
+\end{itemize}
+{\large\textbf{\color{lightgray}{Unsupervised Segmentation of Food Images}}}\hfill{\textcolor{gray}{Fall 2018}}
+\begin{itemize}
+	\vspace{-0.5em}
+	\setlength\itemsep{-0.2em}		
+	\item Developed Convolutional Neural Networks for unsupervised instance segmentation of multiple cuisines food items.
+	\item Implemented Region proposal Networks, Pyramid feature parsing and W-Net architecture for improved localization of segmentation mask. 
+\end{itemize}
+{\large\textbf{\color{lightgray}Distributed Computing for Machine Learning}}}\hfill{\textcolor{gray}{Fall 2017}}
+\begin{itemize}
+	\vspace{-0.5em}
+	\setlength\itemsep{-0.2em}		
+	\item Developed machine learning models for network intrusion detection and object image classification on a distributed system using Hadoop, Spark, SQL, Kafka, Scala, Java, MLlib.
+	\item Presented tutorials in ECE579 course. Topics included applications of MapReduce and Hive/SQL datawarehousing.
+\end{itemize}
+{\large\textbf{\color{lightgray}{Statistical Learning and Modeling }}}\hfill{\textcolor{gray}{Fall 2017}}
+\begin{itemize}
+	\vspace{-0.5em}
+	\setlength\itemsep{-0.2em}		
+	\item Parametric and non-parametric modeling using 2006 ASA Ozone and Prater's Petrol Refinery datasets.
+	\item Developed R scripts for smoothing splines, linear mixed-effect models, generalized linear mixed models and optimization algorithms- Gradient Descent, Stochastic Approximation, Expectation Maximization for GMM.
+\end{itemize}
+{\href{https://github.com/ishank26/sanskrit-reslstm}{\large\textbf{\color{lightgray}{Representing Contextual Relations in Ancient Sanskrit Texts}}}}\hfill{\textcolor{gray}{Sep--Nov 2016}}
+\begin{itemize}
+	\vspace{-0.5em}
+	\setlength\itemsep{-0.2em}		
+	\item Proposed and implemented an algorithm to parse/represent vector embedding of \textit{Devanagari} words in ancient Sanskrit literature-Ramayana, Vedas, etc. Obtained word vectors for 39940 most frequent words.
+	\item Proposed  Bidirectional LSTM architecture with residual skip connections to learn and predict complex relationships in Sanskrit Devanagari texts. 
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+\section{ACTIVITIES}
+\begin{itemize}
+\setlength\itemsep{-0.2em}
+\item Graduate Teaching Assistant, ECE 579: Cloud Computing, Fall 2017, Rutgers University
+\item Android application featured in \href{https://data.gov.in/featured-community-apps}{community applications section} of Open Govt. Data Platform India. Winner Top5 apps category in "Blackberry 10 Apps Challenge 2013" by Devworx, Digit.
+\end{itemize}	
+\end{document}
